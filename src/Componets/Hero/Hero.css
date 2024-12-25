@@ -1,0 +1,91 @@
+.hero {
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 60%);
+    display: flex;
+}
+.hero-left .hand-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* gap कमी केले */
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
+
+.hero-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding-left: 130px;
+    line-height: 1.1;
+}
+
+.hero-left h1 {
+    color: #090909;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.hero-left p {
+    font-size: 60px;
+    color: #171717;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.hero-collection .hand-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.new-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-with-icon p {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ff1414;
+}
+
+.new-with-icon img {
+    width: 45px;
+    height: 45px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 40px;
+    margin-bottom: 60px;
+    border-radius: 75px;
+    font-size: 22px;
+    color: white;
+    background: #ff1414;
+}
+
+.hero-right {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hero-right img {
+    width: 75%; /* साइज कमी केली */
+    height: auto; /* प्रपोर्शन राखले */
+}
+.hero-left .hand-icon p {
+    font-size: 70px; /* पॅराग्राफ फॉन्ट साइज कमी केली */
+    font-weight: 600;
+    margin: 7px 0; /* प्रत्येक पॅराग्राफमधील अंतर कमी केले */
+}

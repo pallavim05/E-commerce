@@ -1,0 +1,55 @@
+.offers{
+    margin-top: 120px;
+    width: 60%;
+    height: 70vh;
+    padding: 0px 260px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 60%);
+  
+ 
+    display: flex;
+}
+.offer-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #171717;
+    margin: 0; 
+    line-height: 1.5; 
+   
+}
+.offer-left p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #171717;
+}
+.offer-left button{
+    width: 180px;
+    border-radius: 40px;
+    
+    border: none;
+    background-color: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.offer-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;
+padding-top: 2px;
+}
+.offer-right img{
+    width: 75%; /* साइज कमी केली */
+    height: auto; /* प्रपोर्शन राखले */
+}
